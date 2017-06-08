@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>クエリストリング課題</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <form action="./okaimono.jsp" method="get">
+        <p>商品：<select name="type" size="6" required>
+                <option value="1">冊子A</option>
+                <option value="1">冊子B</option>
+                <option value="2">小説A</option>
+                <option value="2">小説B</option>
+                <option value="3">アクリルキーホルダー</option>
+                <option value="3">缶バッチ</option> 
+            </select></p>
+                
+        <p>総額：<input type="text" name="total" required></p>
+            
+        <p>個数：<select name="count" required>
+                <option value=1>1つ</option>
+                <option value=2>2つ</option>
+                <option value=3>3つ</option>
+                <option value=4>4つ</option>
+                <option value=5>5つ</option>
+                <option value=6>6つ</option>
+                
+            </select></p>
+                
+        
+        
+     <input type="submit" name="btnSubmit" value="見積もり">   
+    </form>
+    </body>
+</html>
